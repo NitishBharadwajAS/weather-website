@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'This is some help text',
+        message: 'By using this website you can find current weather by entering the location in the provided box.',
         title: 'Help',
         name: 'Nitish Bharadwaj'
     })
